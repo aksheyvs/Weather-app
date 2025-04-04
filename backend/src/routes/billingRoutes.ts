@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getBilling } from "../controllers/billingController";
+import { getBilling } from "../controllers/billingController.js";
 
 const billingRouter = Router();
 

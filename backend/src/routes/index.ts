@@ -1,8 +1,8 @@
 import { Router } from "express";
-import weatherRouter from "./weatherRoutes";
-import authRouter from "./authRoutes";
-import userRouter from "./userRoutes";
-import billingRouter from "./billingRoutes";
+import weatherRouter from "./weatherRoutes.js";
+import authRouter from "./authRoutes.js";
+import userRouter from "./userRoutes.js";
+import billingRouter from "./billingRoutes.js";
 
 const router = Router();
 
